@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Joke Generator </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+            <div class="logo">
+                <h1>Joke Generator</h1>
+            </div>
+            <div class="nightmodetoggle">
+                <!-- Rounded switch -->
+                <label class="switch">
+                    <input type="checkbox" onclick="darkModeOn()">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+    </header>
+
+    <body>
+        <div id="jokeoutput">
+            <p id="test1"></p>
+        </div>
+
+        <div class="buttons">
+            <div class="outputbutton">
+                <button type="button" id="button1" onclick="generateJoke()">Generate Joke</button>
+            </div>
+
+            <div class="nightmodetoggle">
+                <!-- Rounded switch -->
+                <label class="switch">
+                    <input type="checkbox" onclick="darkModeOn()">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
+    </body>
+
+    <footer>
+        <div class="impressum"></div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
